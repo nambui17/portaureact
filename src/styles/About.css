@@ -1,6 +1,5 @@
 .aboutCon {
     background-color: #D11149;
-    min-height: 50vh;
 }
 
 .aboutRow {
@@ -13,12 +12,16 @@
 }
 
 .myPic {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     border: solid 5px black;
     margin: 20px 0 50px 0;
 }
 
 .profile {
     background-color: #1A8FE3;
+}
+
+h2 {
+    padding: 20px 0 0 0;
 }
