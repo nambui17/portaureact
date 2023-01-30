@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import {Container, Nav, Navbar} from 'react-bootstrap';
 
 function Navi(props) {
@@ -6,6 +6,7 @@ function Navi(props) {
     headerBox: {
       fontSize: "48px",
       background: "#6610F2",
+      height: "5vh"
     },
     links: {
       fontSize: '16px',

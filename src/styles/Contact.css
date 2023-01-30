@@ -1,0 +1,19 @@
+.contactRow {
+    padding: 200px 0 0 0;
+    height: 90vh;
+    background-color: #1a8fe3;
+    align-items: start;
+    text-align: center;
+}
+
+h1 {
+    width: 100%;
+    color: #e5e5e5;
+}
+
+.contactInfo {
+    width: 60vw;
+    background-color: #e5e5e5;
+    border-radius: 5px;
+    border: 2px solid black;
+}

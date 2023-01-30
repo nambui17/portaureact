@@ -14,9 +14,9 @@ function About() {
     },
   });
   return (
-    <Container fluid className="aboutCon">
+    <Container fluid className="align-items-center">
       <Row className="aboutRow">
-        <Col className="d-flex justify-content-center flex-wrap profile">
+        <Col className="d-flex justify-content-center flex-wrap">
           <AnimatedImage
             style={dropDown}
             roundedCircle
@@ -25,11 +25,17 @@ function About() {
             alt="Nam Bui"
           />
           <Container fluid>
-            <h2>
-              Hi! My name is Nam and I am a full-stack developer and chemical
-              engineer.
-            </h2>
-            <p>I am a chemical engineer using full-stack development to create applications, and coding experience to create applications, specifically for the medical device field.</p>
+            <Card className="profile">
+              <Card.Title><h1>Nam Bui</h1></Card.Title>
+              <Card.Text className="aboutText">
+                I am a chemical engineer using full-stack development to create
+                applications, and coding experience to create applications,
+                specifically for the medical device field. I have been working for Steris
+                for three years and have developed multiple patents and inventions for medical
+                sterilants, including code in Python and C++ that have been used for research and
+                development.
+              </Card.Text>
+            </Card>
           </Container>
         </Col>
       </Row>
