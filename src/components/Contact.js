@@ -1,13 +1,8 @@
-import React, {useState} from "react";
+import React from "react";
 import { Col, Container, Form, Row, Button } from "react-bootstrap";
-import { useSpring, useTransition } from "@react-spring/web";
 import "../styles/Contact.css";
 
 function Contact() {
-    const [name, setName] = useState("");
-    function isEmail() {
-
-    }
   return (
     <Container fluid className="align-items-center">
       <Row className="contactRow">
@@ -25,8 +20,8 @@ function Contact() {
               <small className="invalid-feedback">Please enter valid email address</small>
             </Form.Group>
             <Form.Group className="m-3">
-              <Form.Label>Comments</Form.Label>
-              <textarea className="form-control is-invalid" rows={4} required></textarea>
+              <Form.Label>Message</Form.Label>
+              <textarea className="form-control" rows={4} required></textarea>
               <small className="invalid-feedback">Please fill out this field</small>
             </Form.Group>
             <Button variant="success" className="mb-3">Submit</Button>
