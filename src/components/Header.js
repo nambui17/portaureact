@@ -5,8 +5,10 @@ import Work from './Work';
 import Resume from './Resume';
 import Contact from './Contact';
 
+
 function Header() {
   const [activePage, pageSwitchHandler] = useState("about");
+
   function showPage() {
     switch (activePage) {
       case "about":
@@ -23,10 +25,10 @@ function Header() {
   }
 
   return (
-    <div>
+    <>
       <Navi activePage={activePage} pageSwitchHandler={pageSwitchHandler} />
       <main>{showPage(activePage)}</main>
-    </div>
+    </>
   );
 }
 
