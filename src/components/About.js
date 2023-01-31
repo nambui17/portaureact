@@ -14,7 +14,7 @@ function About() {
     },
   });
   return (
-    <Container fluid className="align-items-center">
+    <>
       <Row className="aboutRow">
         <Col className="d-flex justify-content-center flex-wrap">
           <AnimatedImage
@@ -27,7 +27,7 @@ function About() {
           <Container fluid>
             <Card className="profile">
               <Card.Title><h1>Nam Bui</h1></Card.Title>
-              <Card.Text className="aboutText">
+              <Card.Text className="aboutText text-center">
                 I am a chemical engineer using full-stack development to create
                 applications, and coding experience to create applications,
                 specifically for the medical device field. I have been working for Steris
@@ -39,7 +39,7 @@ function About() {
           </Container>
         </Col>
       </Row>
-    </Container>
+    </>
   );
 }
 

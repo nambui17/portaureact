@@ -64,26 +64,23 @@ function Work() {
   ];
   // pass in as props to <Project/>
   return (
-    <Container
-      fluid
-      className="workCon"
-    >
+    <>
       <Row className="d-flex flex-wrap justify-content-center workRow ">
         {projects.map((project) => (
-          <Col className="col-xs-12 col-lg-3 m-3 flex-sm-column">
-          <Project
-            title={project.title}
-            image={project.image}
-            info={project.info}
-            tech={project.tech}
-            link={project.link}
-            gh={project.gh}
-            key={project.id}
-          />
+          <Col className="col-10 col-sm-5 col-lg-3 m-3">
+            <Project
+              title={project.title}
+              image={project.image}
+              info={project.info}
+              tech={project.tech}
+              link={project.link}
+              gh={project.gh}
+              key={project.id}
+            />
           </Col>
         ))}
       </Row>
-    </Container>
+    </>
   );
 }
 
