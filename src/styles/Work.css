@@ -19,3 +19,7 @@ main {
 .projectLink:hover {
     color: #d00000;
 }
+
+.projectImage {
+    height: 300px;
+}
