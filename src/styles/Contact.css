@@ -1,6 +1,10 @@
+.contactCon {
+    height: 100%;
+}
+
 .contactRow {
     padding: 200px 0 0 0;
-    height: 90vh;
+    height: 100%;
     background-color: #1a8fe3;
     align-items: start;
     text-align: center;
