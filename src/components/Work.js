@@ -36,30 +36,30 @@ function Work() {
     },
     {
       id: 4,
-      title: "Project 4",
-      image: "",
-      info: "",
-      tech: "",
-      link: "",
-      gh: "",
+      title: "Employee Tracker",
+      image: "assets/images/Employee-tracker.png",
+      info: "Uses a MySQL database to track employees. Back-end application for database management with MySQL queries",
+      tech: "MySQL, mysql2",
+      link: "https://github.com/nambui17/Employee-Tracker",
+      gh: "https://github.com/nambui17/Employee-Tracker",
     },
     {
       id: 5,
-      title: "Project 5",
-      image: "",
-      info: "",
-      tech: "",
-      link: "",
-      gh: "",
+      title: "E-commerce",
+      image: "assets/images/E-commerce.png",
+      info: "An ORM back-end for an e-commerce website. Uses express.js, Sequelize, and MySQL to store data",
+      tech: "node.js, express, sequelize",
+      link: "https://github.com/nambui17/E-commerce",
+      gh: "https://github.com/nambui17/E-commerce",
     },
     {
       id: 6,
       title: "Project 6",
-      image: "",
-      info: "",
-      tech: "",
-      link: "",
-      gh: "",
+      image: "assets/images/placeholder.jpg",
+      info: "placeholder",
+      tech: "N/A",
+      link: "https://github.com/nambui17/",
+      gh: "https://github.com/nambui17/",
     },
   ];
   // pass in as props to <Project/>
@@ -68,9 +68,9 @@ function Work() {
       fluid
       className="workCon"
     >
-      <Row className="d-flex flex-wrap justify-content-center workRow">
+      <Row className="d-flex flex-wrap justify-content-center workRow ">
         {projects.map((project) => (
-          <Col className="col-md-10 col-lg-3 m-3">
+          <Col className="col-xs-12 col-lg-3 m-3 flex-sm-column">
           <Project
             title={project.title}
             image={project.image}

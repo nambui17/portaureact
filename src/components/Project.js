@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 function Project({ title, image, info, tech, link, gh }) {
   return (
     <Card border="dark">
-      <Card.Img src={image} />
+      <Card.Img src={image} className="projectImage" />
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>{info}</Card.Text>
