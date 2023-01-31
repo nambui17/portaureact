@@ -33,7 +33,7 @@ function About() {
                 specifically for the medical device field. I have been working for Steris
                 for three years and have developed multiple patents and inventions for medical
                 sterilants, including code in Python and C++ that have been used for research and
-                development.
+                development. I also work using javascript, html, and css.
               </Card.Text>
             </Card>
           </Container>

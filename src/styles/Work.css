@@ -6,3 +6,16 @@
     height: 100%;
     background-color: #f17105;
 }
+
+main {
+    height: 100%;
+}
+
+.projectLink {
+    text-decoration: none;
+    color: #363636;
+}
+
+.projectLink:hover {
+    color: #d00000;
+}

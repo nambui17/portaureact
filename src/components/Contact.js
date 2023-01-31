@@ -4,7 +4,7 @@ import "../styles/Contact.css";
 
 function Contact() {
   return (
-    <Container fluid className="align-items-center">
+    <Container fluid className="align-items-center contactCon">
       <Row className="contactRow">
         <Col className="d-flex justify-content-center flex-wrap">
             <h1>Contact Me</h1>
