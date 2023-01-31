@@ -1,9 +1,6 @@
-.workCon {
-    height: 100%;
-}
-
 .workRow {
-    height: 100%;
+    height: auto;
+    min-height: 100%;
     background-color: #f17105;
 }
 

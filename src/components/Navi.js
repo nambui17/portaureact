@@ -6,7 +6,6 @@ function Navi(props) {
     headerBox: {
       fontSize: "48px",
       background: "#6610F2",
-      height: "5%"
     },
     links: {
       fontSize: '16px',
