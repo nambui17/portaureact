@@ -56,7 +56,7 @@ function Work() {
       id: 6,
       title: "New Age Records",
       image: "assets/images/new-age-records.png",
-      info: "placeholder",
+      info: "An e-commerce website to sell records and vinyls.",
       tech: "GraphQl, React, React Chakra-Ui, React-spring, JWT, Mongoose, MongoDB, Express.js, Apollo",
       link: "https://fast-caverns-21349.herokuapp.com/",
       gh: "https://github.com/nambui17/super-sellers",
