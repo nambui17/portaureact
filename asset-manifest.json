@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portaureact/static/css/main.c0de28ee.css",
-    "main.js": "/portaureact/static/js/main.afd493b4.js",
+    "main.js": "/portaureact/static/js/main.2908b25d.js",
     "static/js/787.c278919a.chunk.js": "/portaureact/static/js/787.c278919a.chunk.js",
     "index.html": "/portaureact/index.html",
     "main.c0de28ee.css.map": "/portaureact/static/css/main.c0de28ee.css.map",
-    "main.afd493b4.js.map": "/portaureact/static/js/main.afd493b4.js.map",
+    "main.2908b25d.js.map": "/portaureact/static/js/main.2908b25d.js.map",
     "787.c278919a.chunk.js.map": "/portaureact/static/js/787.c278919a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c0de28ee.css",
-    "static/js/main.afd493b4.js"
+    "static/js/main.2908b25d.js"
   ]
 }
