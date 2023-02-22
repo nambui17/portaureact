@@ -54,12 +54,12 @@ function Work() {
     },
     {
       id: 6,
-      title: "Project 6",
-      image: "assets/images/placeholder.jpg",
+      title: "New Age Records",
+      image: "assets/images/new-age-records.png",
       info: "placeholder",
-      tech: "N/A",
-      link: "https://github.com/nambui17/",
-      gh: "https://github.com/nambui17/",
+      tech: "GraphQl, React, React Chakra-Ui, React-spring, JWT, Mongoose, MongoDB, Express.js, Apollo",
+      link: "https://fast-caverns-21349.herokuapp.com/",
+      gh: "https://github.com/nambui17/super-sellers",
     },
   ];
   // pass in as props to <Project/>
